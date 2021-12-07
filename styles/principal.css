@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.tabuleiro {
+  width: 100%;
+  max-width: 300px;
+  margin: 0px auto;
+  margin-top: 200px;
+  text-align: center;
+}
+
+.botao {
+  background: #f0862f;
+  border: 2px double #ffb87f;
+  color: #ffffff;
+  font-size: 50px;
+  font-weight: 500;
+  border-radius: 5px;
+  width: calc(33% - 4px);
+  height: 100px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.botao:hover {
+    background: #f0862fda;
+}
+
+.botao:active {
+    background: #f0a32fda;
+}
+
+/* #btn1:active {
+    background: orange;
+} */
